@@ -2,7 +2,9 @@
 
 ## Current status
 
-Deployment preparation only. There is no verified public deployment URL yet. The local project originally had no Git repository or GitHub remote. GitHub upload and Vercel deployment require signing in to the user's accounts. Do not treat local build success as online acceptance.
+The complete project is available in the public GitHub repository https://github.com/danielwangbnds/gfssm-structure-lab. All 49 uploaded files were fetched and verified against the local Git tree with identical contents. The local main branch tracks origin/main.
+
+Vercel deployment is pending account-owner sign-in. There is no verified public deployment URL yet. Do not treat local build success as online acceptance.
 
 No lesson text, model geometry, or teaching flow was changed for deployment.
 
@@ -23,7 +25,7 @@ The explicit versioned npx commands avoid relying on the oldest pnpm version sel
 ## Account and import steps
 
 1. Sign in at https://github.com/login and https://vercel.com/login. Complete any two-factor prompt personally.
-2. Create a private GitHub repository named `gfssm-structure-lab` (or use an existing intended repository). Push this project's `main` branch; this repository's root should contain `package.json` and `vercel.json`.
+2. Use the existing public GitHub repository `danielwangbnds/gfssm-structure-lab`, as requested by the owner. Its `main` branch contains the complete project, with `package.json` and `vercel.json` at the root.
 3. In Vercel, select **Add New → Project** (https://vercel.com/new), choose the GitHub account, and import that repository.
 4. If prompted to install the Vercel GitHub app, grant access to this repository only. Any authorization or terms that require the account owner must be completed by the user.
 5. Keep Root Directory as the repository root. If using an existing parent repository instead, select its `gfssm-structure-lab` folder.
