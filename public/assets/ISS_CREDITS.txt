@@ -1,0 +1,9 @@
+International Space Station (ISS) (B)
+3D geometry: NASA / Michael D. Carbajal
+Source: https://science.nasa.gov/3d-resources/international-space-station-iss-b/
+Usage: https://www.nasa.gov/nasa-brand-center/images-and-media/
+Downloaded: 2026-10-21
+SHA-256: 2ba4427413b0dd89a33d2acaf962dea8a96a3b1d8dceda05cc7aad547ffd3d16
+Educational, factual reference display. No NASA endorsement is implied.
+Display adaptation: seven detached auxiliary export objects excluded from the runtime clone; original main station geometry retained, orientation adjusted, solar-array material tinted blue. Original GLB file is unchanged.
+See ASSET_SOURCES.md for full provenance and local decoder information.
